@@ -1,0 +1,126 @@
+
+import { Product } from '@/components/ProductCard';
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: "Premium Wireless Headphones",
+    price: 199.99,
+    originalPrice: 249.99,
+    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Electronics",
+    rating: 4.8,
+    reviews: 324,
+    badge: "Best Seller"
+  },
+  {
+    id: 2,
+    name: "Smart Fitness Watch",
+    price: 299.99,
+    originalPrice: 399.99,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Wearables",
+    rating: 4.6,
+    reviews: 198,
+    badge: "25% OFF"
+  },
+  {
+    id: 3,
+    name: "Designer Leather Jacket",
+    price: 179.99,
+    image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Fashion",
+    rating: 4.9,
+    reviews: 156,
+  },
+  {
+    id: 4,
+    name: "Professional Camera Lens",
+    price: 899.99,
+    originalPrice: 1099.99,
+    image: "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Photography",
+    rating: 4.7,
+    reviews: 89,
+    badge: "New"
+  },
+  {
+    id: 5,
+    name: "Luxury Handbag",
+    price: 249.99,
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Fashion",
+    rating: 4.5,
+    reviews: 267,
+  },
+  {
+    id: 6,
+    name: "Gaming Mechanical Keyboard",
+    price: 149.99,
+    originalPrice: 199.99,
+    image: "https://images.unsplash.com/photo-1541140532154-b024d705b90a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Gaming",
+    rating: 4.8,
+    reviews: 445,
+    badge: "Popular"
+  },
+  {
+    id: 7,
+    name: "Organic Skincare Set",
+    price: 79.99,
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Beauty",
+    rating: 4.6,
+    reviews: 123,
+  },
+  {
+    id: 8,
+    name: "Minimalist Desk Lamp",
+    price: 89.99,
+    originalPrice: 119.99,
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Home",
+    rating: 4.4,
+    reviews: 76,
+  },
+  {
+    id: 9,
+    name: "Premium Coffee Beans",
+    price: 24.99,
+    image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Food",
+    rating: 4.9,
+    reviews: 234,
+    badge: "Organic"
+  },
+  {
+    id: 10,
+    name: "Wireless Charging Pad",
+    price: 39.99,
+    originalPrice: 59.99,
+    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Electronics",
+    rating: 4.3,
+    reviews: 167,
+  },
+  {
+    id: 11,
+    name: "Yoga Mat Premium",
+    price: 59.99,
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Fitness",
+    rating: 4.7,
+    reviews: 189,
+  },
+  {
+    id: 12,
+    name: "Bluetooth Speaker",
+    price: 129.99,
+    originalPrice: 179.99,
+    image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Electronics",
+    rating: 4.5,
+    reviews: 298,
+    badge: "Waterproof"
+  }
+];
